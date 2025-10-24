@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ritendra Sahoo | DevOps Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init("QdO8NeXqgxKdo1E-5");
+    })();
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo"><span>Ritendra</span><span>Sahoo</span></div>
+    <nav>
+      <a href="#home" class="nav-item" data-index="1">Home</a>
+      <a href="#about" class="nav-item" data-index="2">About</a>
+      <a href="#experience" class="nav-item" data-index="3">Experience</a>
+      <a href="#skills" class="nav-item" data-index="4">Skills</a>
+      <a href="#certificates" class="nav-item" data-index="5">Certifications</a>
+      <a href="#projects" class="nav-item" data-index="6">Projects</a>
+      <a href="#contact" class="nav-item" data-index="7">Contact</a>
+    </nav>
+    <div class="mode-toggle"><i class='bx bx-moon'></i></div>
+  </header>
+
+  <!-- HOME -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <span class="greeting">Hello, I'm</span>
+        <h1 class="name highlight">Ritendra Sahoo</h1>
+        <div class="typewriter">
+          <span class="typed-text">And I'm a </span>
+          <span class="dynamic-text">DevOps Engineer</span>
+        </div>
+        <p class="hero-subtext">passionate about automation, scalability, and cloud infrastructure.</p>
+        <div class="social-links">
+          <a href="Ritendra_Sahoo_Updated_Resume.pdf" target="_blank" class="social-btn"><i class="bx bx-file"></i> Resume</a>
+          <a href="https://github.com/ramcloudengineer" target="_blank" class="social-btn"><i class="bx bxl-github"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/ritendra-sahoo" target="_blank" class="social-btn"><i class="bx bxl-linkedin-square"></i> LinkedIn</a>
+        </div>
+        <div class="hero-buttons">
+          <button onclick="location.href='#contact'" class="cta-btn">Get in Touch</button>
+          <button onclick="location.href='#projects'" class="cta-btn cta-btn-secondary">View Projects <i class='bx bx-right-arrow-alt'></i></button>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="image.png.jpg" alt="Ritendra Sahoo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-text">I am a DevOps Engineer with experience in CI/CD pipelines, containerization, and cloud technologies like AWS, GCP, Docker, and Kubernetes. I build efficient, automated workflows for scalable deployments.</p>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="experience-container">
+      <div class="exp-card">
+        <h3>DevOps Engineer - CloudHeroWithAI</h3>
+        <p><strong>2025 - Present</strong></p>
+        <p>Implemented CI/CD pipelines using GitLab and Jenkins, automated infrastructure with Terraform, and deployed Kubernetes clusters for scalable applications.</p>
+      </div>
+      <div class="exp-card">
+        <h3>OWN Project</h3>
+        <p><strong>2023 - 2025</strong></p>
+        <p>Gained hands-on experience in EC2, S3, and IAM management while building cost-optimized cloud environments and monitoring dashboards.</p>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card" data-skill="90%" data-tech="terraform">
+        <div class="terraform-logo">
+          <img src="https://www.datocms-assets.com/2885/1620155116-brandhcterraformverticalcolor.svg" alt="Terraform">
+        </div>
+        <h3>Terraform</h3>
+        <p>Infrastructure as Code expert with modular design patterns.</p>
+      </div>
+      
+      <div class="skill-card" data-skill="85%" data-tech="kubernetes">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" alt="Kubernetes">
+        <h3>Kubernetes</h3>
+        <p>Container orchestration and cluster management expert.</p>
+      </div>
+      
+      <div class="skill-card" data-skill="85%" data-tech="docker">
+        <img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" alt="Docker">
+        <h3>Docker</h3>
+        <p>Containerization and multi-stage build optimization.</p>
+      </div>
+      
+      <div class="skill-card" data-skill="90%" data-tech="jenkins">
+        <img src="https://www.jenkins.io/images/logos/jenkins/jenkins.png" alt="Jenkins">
+        <h3>Jenkins CI/CD</h3>
+        <p>Advanced pipeline automation and continuous deployment.</p>
+      </div>
+      
+      <div class="skill-card" data-skill="85%" data-tech="python">
+        <img src="https://www.python.org/static/community_logos/python-logo-generic.svg" alt="Python">
+        <h3>Python</h3>
+        <p>Automation scripting and application development.</p>
+      </div>
+      
+      <div class="skill-card" data-skill="85%" data-tech="aws">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS">
+        <h3>AWS</h3>
+        <p>Cloud architecture and serverless solutions.</p>
+      </div>
+      
+      <div class="skill-card" data-skill="85%" data-tech="gcp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Google-cloud-platform.svg" alt="GCP">
+        <h3>GCP</h3>
+        <p>Google Cloud infrastructure and services.</p>
+      </div>
+      
+      <div class="skill-card" data-skill="90%" data-tech="linux">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux">
+        <h3>Linux</h3>
+        <p>System administration and performance optimization.</p>
+      </div>
+      
+      <div class="skill-card" data-skill="85%" data-tech="github">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+        <h3>GitHub</h3>
+        <p>Version control and GitHub Actions automation.</p>
+      </div>
+      
+      <div class="skill-card" data-skill="80%" data-tech="monitoring">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg" alt="Monitoring">
+        <h3>Monitoring</h3>
+        <p>Prometheus, Grafana, and ELK stack implementation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certificates">
+    <h2 class="section-title">Certifications</h2>
+    <div class="certificates-grid">
+      <div class="certificate-card">
+        <a href="Hack2Skill.jpg" target="_blank" class="certificate-link">
+          <img src="Hack2Skill.jpg" alt="Professional Certification">
+        </a>
+        <h3>Professional Development</h3>
+        <p>Advanced Technology & Cloud Computing</p>
+      </div>
+
+      <div class="certificate-card">
+        <a href="AWS.png" target="_blank" class="certificate-link">
+          <img src="AWS.png" alt="AWS Certificate">
+        </a>
+        <h3>AWS Cloud</h3>
+        <p>Amazon Web Services</p>
+      </div>
+
+      <div class="certificate-card">
+        <a href="DevOps.png" target="_blank" class="certificate-link">
+          <img src="DevOps.png" alt="DevOps Certificate">
+        </a>
+        <h3>DevOps</h3>
+        <p>Professional DevOps Certification</p>
+      </div>
+
+      <div class="certificate-card">
+        <a href="Python For DevOps (2).png" target="_blank" class="certificate-link">
+          <img src="Python For DevOps (2).png" alt="Python for DevOps Certificate">
+        </a>
+        <h3>Python for DevOps</h3>
+        <p>Advanced DevOps Programming</p>
+      </div>
+
+      <div class="certificate-card">
+        <a href="Generative AI for DevOps.png" target="_blank" class="certificate-link">
+          <img src="Generative AI for DevOps.png" alt="Generative AI Certificate">
+        </a>
+        <h3>Generative AI for DevOps</h3>
+        <p>AI in DevOps Implementation</p>
+      </div>
+
+      <div class="certificate-card">
+        <a href="Cyber Security and Privacy.jpg" target="_blank" class="certificate-link">
+          <img src="Cyber Security and Privacy.jpg" alt="Cyber Security Certificate">
+        </a>
+        <h3>Cyber Security</h3>
+        <p>Security and Privacy Management</p>
+      </div>
+
+      <div class="certificate-card">
+        <a href="IOT.jpg" target="_blank" class="certificate-link">
+          <img src="IOT.jpg" alt="IOT Certificate">
+        </a>
+        <h3>Internet of Things</h3>
+        <p>IoT Technologies and Applications</p>
+      </div>
+
+      <div class="certificate-card">
+        <a href="Management Information System.jpg" target="_blank" class="certificate-link">
+          <img src="Management Information System.jpg" alt="MIS Certificate">
+        </a>
+        <h3>Management Information System</h3>
+        <p>Information Systems Management</p>
+      </div>
+
+      <div class="certificate-card">
+        <a href="Power BI.jpg" target="_blank" class="certificate-link">
+          <img src="Power BI.jpg" alt="Power BI Certificate">
+        </a>
+        <h3>Power BI</h3>
+        <p>Data Visualization and Analytics</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card"><h3>🚀 CI/CD Pipeline Setup</h3><p>Automated deployment of a Node.js app using Docker, Jenkins, and Kubernetes on AWS EKS.</p></div>
+      <div class="project-card"><h3>☁️ Infrastructure as Code</h3><p>Created reusable Terraform modules for multi-tier AWS architectures (VPC, EC2, RDS, S3).</p></div>
+      <div class="project-card"><h3>📊 Monitoring with Prometheus</h3><p>Integrated Prometheus and Grafana for real-time monitoring and alerting in a Kubernetes cluster.</p></div>
+       <div class="project-card"><h3>i.mobilothon 5.0</h3><p>A cloud-connected platform transforming vehicles into intelligent, secure, and connected assets using AI-driven behavior analysis, predictive insights, and real-time monitoring for complete family safety and control.</p></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="section-title">Get in Touch</h2>
+    <div class="contact-container">
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <textarea rows="5" id="message" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="cta-btn">Send Message</button>
+        <div id="successMessage" class="form-message success" style="display: none;">Message sent successfully!</div>
+        <div id="errorMessage" class="form-message error" style="display: none;">Failed to send message. Please try again.</div>
+      </form>
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class='bx bx-envelope bx-tada-hover'></i>
+          <div class="contact-detail">
+            <span class="label">Primary Email</span>
+            <a href="mailto:sahooritendra302@gmail.com">sahooritendra302@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class='bx bx-phone bx-tada-hover'></i>
+          <div class="contact-detail">
+            <span class="label">Phone</span>
+            <a href="tel:+917849082434">+91 7849082434</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class='bx bx-map bx-tada-hover'></i>
+          <div class="contact-detail">
+            <span class="label">Location</span>
+            <span>Pune, India</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>2025 Ritendra Sahoo. All rights reserved.</p>
+    <div class="footer-social">
+      <a href="https://github.com/ramcloudengineer" target="_blank"><i class='bx bxl-github'></i></a>
+      <a href="https://www.linkedin.com/in/ritendra-sahoo" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+    </div>
+  </footer>
+  <script src="scripts.js"></script>
+  <script>
+    // Highlight active section in navigation
+    const sections = document.querySelectorAll('section');
+    const navItems = document.querySelectorAll('.nav-item');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= sectionTop - 150) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navItems.forEach(item => {
+        item.classList.remove('active');
+        if (item.getAttribute('href').slice(1) === current) {
+          item.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
